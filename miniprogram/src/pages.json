@@ -1,0 +1,31 @@
+{
+  "pages": [
+    { "path": "pages/home/home", "style": { "navigationBarTitleText": "万亩果园", "enablePullDownRefresh": true } },
+    { "path": "pages/product/product", "style": { "navigationBarTitleText": "商品详情" } },
+    { "path": "pages/cart/cart", "style": { "navigationBarTitleText": "购物车" } },
+    { "path": "pages/confirm/confirm", "style": { "navigationBarTitleText": "确认订单" } },
+    { "path": "pages/orders/orders", "style": { "navigationBarTitleText": "我的订单" } },
+    { "path": "pages/order-detail/order-detail", "style": { "navigationBarTitleText": "订单详情" } },
+    { "path": "pages/store/store", "style": { "navigationBarTitleText": "关于果园" } },
+    { "path": "pages/chat/chat", "style": { "navigationBarTitleText": "联系园主" } },
+    { "path": "pages/notifications/notifications", "style": { "navigationBarTitleText": "消息" } },
+    { "path": "pages/mine/mine", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录" } }
+  ],
+  "tabBar": {
+    "color": "#888780",
+    "selectedColor": "#3b6d11",
+    "backgroundColor": "#ffffff",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "首页" },
+      { "pagePath": "pages/cart/cart", "text": "购物车" },
+      { "pagePath": "pages/orders/orders", "text": "订单" },
+      { "pagePath": "pages/mine/mine", "text": "我的" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#3b6d11",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fafaf6"
+  }
+}
